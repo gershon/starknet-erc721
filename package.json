@@ -1,0 +1,23 @@
+{
+  "name": "starknet-erc721",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "contract:build": "cd contracts && scarb build",
+    "contract:deploy": "dotenv -- tsx ./scripts/deploy.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv-cli": "^7.4.1",
+    "loading-cli": "^1.1.2",
+    "starknet": "^5.24.3",
+    "tsx": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30"
+  }
+}
